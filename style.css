@@ -1,0 +1,165 @@
+header{
+	position: fixed;
+	width: 100vw;
+	height: 100px;
+	position: fixed;
+	background-color: #000;
+	top: 0;
+	z-index: 1;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.wrapper{
+	width: calc(100vw - 30%);
+	background-color: #ccc;
+	height: calc(100vh - 100px);
+	/*width: 800px;*/
+	margin: 0 auto;
+	top: 100px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.wrapper::before{
+	content: '';
+	display: block;
+	padding-bottom: 100%;
+}
+
+.block{
+	width: 150px;
+	height: 100px;
+	position: absolute;
+}
+
+p{
+	-ms-align-self: center;
+	align-self: center;
+}
+.block1{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background-color: red;
+	top: 0;
+	left: 0;
+}
+.block2{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background-color: blue;
+	top: 0;
+	right: 0;
+}
+.block3{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background-color: yellow;
+	bottom: 0;
+	right: 0;
+}
+.block4{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	background-color: green;
+	bottom: 0;
+	left: 0;
+}
+.block5{
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+background-color: orange;
+display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+/*.head{
+	width: 100%;
+	position: fixed;
+	background-color: #000;
+	padding-top: 100px;
+	top: 0;
+
+	padding: 0;
+	}
+
+.block1{
+	position: relative;
+	width: 800px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+.block1::before{
+	content: '';
+	display: block;
+	padding-bottom: 100%;
+}
+
+.block{
+	width: 100px;
+	height: 100px;	
+	background-color: #000;	
+	position: relative;
+	z-index: 1;
+}
+.block2{
+	top: 20px;
+	left: 0;
+	position: absolute;
+}
+
+.block4{
+	right: 0;
+	top: 20px;
+	position: absolute;
+}
+.block6{
+	right: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+.block5{
+	left: 0;
+	bottom: 0;
+	position: absolute;
+}
+
+
+.block3{
+position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin:auto;
+}*/
